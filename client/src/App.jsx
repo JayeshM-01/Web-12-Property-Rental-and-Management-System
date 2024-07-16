@@ -21,6 +21,8 @@ function App() {
   });
   return (
     <Userdetail.Provider value={{userDetails , setUserDetails}}>
+
+    
     <QueryClientProvider client={queryClient}>
     <BrowserRouter>
      <Suspense fallback={<div>Loadingggggg!!!!!!!</div>}>
